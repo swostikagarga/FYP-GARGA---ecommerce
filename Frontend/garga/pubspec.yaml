@@ -1,0 +1,39 @@
+name: garga
+description: "This is a e-commerce app for mero apparels"
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  khalti_flutter: ^3.0.0
+  google_fonts: ^6.2.1
+  persistent_bottom_nav_bar: ^6.2.1
+  intl: ^0.18.1
+  carousel_slider: ^5.0.0
+  multi_dropdown: ^3.0.1
+  dropdown_search: ^6.0.2
+  lucide_icons: ^0.257.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
